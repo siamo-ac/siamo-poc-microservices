@@ -1,9 +1,9 @@
 # siamo-poc-microservices
 
 **Concept, in plain language.** A monolith is one program that does everything;
-a microservice architecture splits the program into small services that each
-own one business area ("bounded context") and talk to each other over the
-network. This POC has two:
+a microservice architecture applies **service decomposition**: it splits the
+program into small services that each own one business area ("bounded
+context") and talk to each other over the network. This POC has two:
 
 - **orders** (`:8081`) — owns orders. It knows nothing about stock levels.
 - **inventory** (`:8082`) — owns stock levels and reservations. It knows
