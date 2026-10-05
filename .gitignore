@@ -1,0 +1,11 @@
+# Built binaries
+bin/
+*.exe
+
+# Demo logs
+*.log
+
+# OS / editor noise
+.DS_Store
+.idea/
+*.swp
